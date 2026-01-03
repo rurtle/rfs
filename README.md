@@ -5,19 +5,18 @@
 ## Project Structure
 
 ```text
-TFS-TripFlieSystem/
-└── rfs/                # PROJECT ROOT
-    ├── Makefile        # Builds lib, executable, and tests
-    ├── lib/            # Compiles static library (librfs.a)
-    ├── include/        # Header files
-    │   ├── rfs.h       # Core definitions
-    │   └── utils.h     # Utility helpers
-    ├── src/            # Source code
-    │   ├── main.c      # FUSE entry point
-    │   ├── rfs.c       # File system logic
-    │   └── utils.c     # Utility implementation
-    └── tests/          # TDD Test Suite
-        └── test_runner.c
+rfs/                # PROJECT ROOT
+├── Makefile        # Builds lib, executable, and tests
+├── lib/            # Compiles static library (librfs.a)
+├── include/        # Header files
+│   ├── rfs.h       # Core definitions
+│   └── utils.h     # Utility helpers
+├── src/            # Source code
+│   ├── main.c      # FUSE entry point
+│   ├── rfs.c       # File system logic
+│   └── utils.c     # Utility implementation
+└── tests/          # TDD Test Suite
+    └── test_runner.c
 ```
 
 ## Building
