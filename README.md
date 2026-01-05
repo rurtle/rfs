@@ -24,13 +24,16 @@ rfs/                # PROJECT ROOT
 RFS uses a `Makefile` to compile a static library (`librfs.a`) and link it for both the main executable and the test runner.
 
 **Prerequisites:**
-*   Linux (Target Platform)
+*   Linux (`x86_64` and `arm64`)
 *   `libfuse3-dev` (Debian/Ubuntu) or `fuse3`
 *   `gcc` and `make`
 
 **Tested Environment:**
-*   Ubuntu 24.04 LTS
-*   GCC 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04)
+
+| Operating System | OS Version | Platform Architecture | GCC Version |
+| :---: | :---: | :---: | :---: |   
+| Ubuntu | 24.04 LTS | x86_64 | 13.3.0 |
+| Ubuntu | 22.04.5 LTS | x86_64 | 11.4.0 |
 
 **Build:**
 ```bash
